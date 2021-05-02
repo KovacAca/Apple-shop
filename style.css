@@ -100,5 +100,48 @@ header button {
 header button:hover {
   background: var(--yellow);
 }
-
+/*************
+about
+*************/
+.about article {
+  width: 50%;
+  float: left;
+  padding: 50px;
+}
+.about article:nth-child(1){
+  background: var(--gray1);
+}
+.about article:nth-child(2){
+  background: var(--gray2);
+}
+.about article:nth-child(3){
+  background: var(--gray3);
+}
+.about article:nth-child(4){
+  background: var(--gray4);
+}
+.about i {
+  color: var(--yellow);
+  font-size: 4rem;
+  margin-bottom: 20px;
+}
+.about h3 {
+  color: var(--white);
+  font-size: 1.7rem;
+}
+.about p {
+  color: var(--white);
+  font-size: 1.2rem;
+  margin: 30px 0;
+}
+.about article button {
+  background: transparent;
+  color: var(--yellow);
+  border: 1px solid var(--yellow);
+}
+.about button:hover {
+  background: var(--yellow);
+  color: var(--gray1);
+  border: 1px solid var(--yellow);
+}
 
