@@ -15,3 +15,49 @@
   padding: 0;
   box-sizing: border-box;
 }
+/*************
+basic styles
+*************/
+body {
+  font-family: 'Lato', sans-serif;
+  line-height: 1.6;
+  color: var(--text);
+  font-size: 16px;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poppins', sans-serif;
+}
+ul {
+  
+}
+/*************
+nav
+*************/
+nav {
+  text-align: center;
+  background: linear-gradient(to right, var(--purple), var(--yellow));
+  height: 55px;
+  line-height: 55px;
+}
+nav ul li {
+  display: inline-block;
+}
+nav ul li a {
+  text-decoration: none;
+  margin: 30px;
+  color: var(--white);
+}
+nav ul li a:hover {
+  color: var(--purple);
+  transition: var(--transition);
+}
+nav i {
+  font-size: 2rem;
+  position: relative;
+  top: 5px;
+}
+nav i:hover {
+  color: var(--yellow);
+  transition: var(--transition);
+}
+
