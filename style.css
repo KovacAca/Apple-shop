@@ -27,8 +27,13 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Poppins', sans-serif;
 }
-ul {
-  
+button {
+  padding: 15px 30px;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  border: none;
+  cursor: pointer;
+  transition: var(--transition);
 }
 /*************
 nav
@@ -60,4 +65,40 @@ nav i:hover {
   color: var(--yellow);
   transition: var(--transition);
 }
+/*************
+header
+*************/
+header {
+  background:  linear-gradient(rgba(110, 37, 148, .9), rgba(110, 37, 148, .9)),url(img/header.jpg);
+  background-position: center;
+  background-size: cover;
+  padding: 200px 0;
+  color: var(--white);
+  text-align: center;
+}
+header h1 {
+  font-size: 4.5rem;
+  letter-spacing: 1px;
+}
+header h1:after {
+  display: block;
+  content: '';
+  width: 100px;
+  height: 4px;
+  background: var(--yellow);
+  margin: 30px auto;
+}
+header p {
+  font-size: 1.6rem;
+  font-weight: bolder;
+  margin-bottom: 30px;
+}
+header button {
+  background: var(--white);
+  color: var(--purple);
+}
+header button:hover {
+  background: var(--yellow);
+}
+
 
