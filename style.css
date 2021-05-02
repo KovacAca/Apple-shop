@@ -287,7 +287,101 @@ footer ul li a {
 footer ul li a:hover {
   color: var(--yellow);
 }
-
+/******************
+R E S P O N S I V E
+******************/
+@media(min-width: 768px) and (max-width: 1024px){
+  header {
+    padding: 80px;
+  }
+  header h1 {
+    font-size: 3rem;
+  }
+  header p {
+    font-size: 1.2rem;
+  }
+  .about article {
+    text-align: center;
+}
+  footer article:nth-child(1) {
+    width: 62%;
+    float: left;
+  }
+  footer article:nth-child(2) {
+    width: 30%;
+    float: right;
+  }
+  footer article:nth-child(2) {
+    width: 30%;
+    float: right;
+  }
+  footer ul li {
+    line-height: 2.8;
+}
+  .products .row1 article:nth-child(1),
+  .products .row1 article:nth-child(2),
+  .products .row2 article:nth-child(1),
+  .products .row2 article:nth-child(2),
+  .products .row3 article:nth-child(1),
+  .products .row3 article:nth-child(2){
+    width: 50%;
+    height: 38vh;
+}
+}
+@media(max-width: 767px){
+  nav ul li a {
+    margin: 5px;
+  }
+  header {
+    padding: 50px;
+  }
+  header h1 {
+    font-size: 3rem;
+  }
+  
+element {
+}
+header p {
+    font-size: 1.1rem;
+    line-height: 2;
+    margin-bottom: 10px;
+  }
+  .about article {
+    width: 100%;
+    padding: 30px;
+    text-align: center;
+  }
+  .products .row1 article:nth-child(1),
+  .products .row2 article:nth-child(2),
+  .products .row3 article:nth-child(1) {
+    display: none;
+  }
+  .products .row1 article:nth-child(2),
+  .products .row2 article:nth-child(1),
+  .products .row3 article:nth-child(2) {
+    width: 100%;
+    height: auto;
+  }
+  .cta {
+    padding: 30px;
+  }
+  .cta h2 {
+    font-size: 2rem;
+  }
+  .cta button {
+    font-size: 1rem;
+  }
+  footer {
+    padding: 30px;
+}
+  footer article:nth-child(1) {
+    width: 100%;
+  }
+  footer article:nth-child(2) {
+    width: 100%;
+    margin-top: 40px;
+  }
+}
 
 
 
