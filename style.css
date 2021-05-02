@@ -236,6 +236,57 @@ cta
 .cta button:hover {
   background: var(--text);
 }
+/*************
+footer
+*************/
+footer {
+  background: var(--text);
+  padding: 60px;
+  color: var(--white);
+}
+footer h3 {
+  font-size: 1.4rem;
+}
+footer h3:after {
+  display: block;
+  content: '';
+  width: 100px;
+  height: 4px;
+  background: var(--yellow);
+  margin: 20px 0;
+}
+footer article:nth-child(1) {
+  width: 60%;
+  float: left;
+}
+footer article:nth-child(2) {
+  width: 40%;
+  float: right;
+}
+footer .clearfix {
+  clear: both;
+}
+footer button {
+  background: transparent;
+  border: 2px solid var(--yellow);
+  color: var(--yellow);
+  margin-top: 20px;
+}
+footer button:hover {
+  background: var(--yellow);
+  color: var(--purple);
+}
+footer ul li {
+  list-style: none;
+  line-height: 2;
+}
+footer ul li a {
+  text-decoration: none;
+  color: var(--white);
+}
+footer ul li a:hover {
+  color: var(--yellow);
+}
 
 
 
